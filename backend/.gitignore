@@ -1,0 +1,2 @@
+.env
+ATLAS_URI= mongodb+srv://new-user123:newUser123@cluster0.tqks1.mongodb.net/FitnessTracker?retryWrites=true&w=majority
