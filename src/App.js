@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 // import all components
 
 import ExcercisesList from "./components//ExcercisesList";
-import EditExcercise from "./components/EditExcercises";
+import EditExcercises from "./components/EditExcercises";
 import CreateExcercise from "./components/CreateExcercise";
 import CreateUser from "./components/CreateUser";
 import Navbar from "./components/Navbar";
@@ -18,7 +18,7 @@ function App() {
       <br/>
       <Routes>
       <Route path="/"  element={<ExcercisesList />} />
-      <Route path="/edit/:id" element={<EditExcercise />} />
+      <Route path="/edit/:id" element={<EditExcercises />} />
       <Route path="/create" element={<CreateExcercise />} />
       <Route path="/user"  element={<CreateUser />} />
       </Routes>

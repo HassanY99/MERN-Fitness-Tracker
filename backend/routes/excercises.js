@@ -7,7 +7,7 @@ let Excercise = require('../models/excercise.model');
 
 route.get('/', (req,res) => {
     Excercise.find()
-        .then(excercise => res.json(excercise))
+        .then(excercises => res.json(excercises))
         .catch(err => res.status(400).json('Error: ' + err));
 });
 
