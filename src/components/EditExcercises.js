@@ -3,7 +3,7 @@ import axios from 'axios';
 import DatePicker from 'react-datepicker';
 import "react-datepicker/dist/react-datepicker.css";
 
-export default class EditExercises extends Component {
+export default class EditExcercises extends Component {
   constructor(props) {
     super(props);
 
@@ -23,7 +23,7 @@ export default class EditExercises extends Component {
   }
 
   componentDidMount() {
-    axios.get('http://localhost:5000/exercises/'+this.props.match.params.id)
+    axios.get('http://localhost:5000/excercises/'+this.props.match.params.id)
       .then(response => {
         this.setState({
           username: response.data.username,
@@ -44,10 +44,6 @@ export default class EditExercises extends Component {
           })
         }
       })
-      .catch((error) => {
-        console.log(error);
-      })
-
   }
 
   onChangeUsername(e) {
@@ -86,7 +82,7 @@ export default class EditExercises extends Component {
 
     console.log(exercise);
 
-    axios.post('http://localhost:5000/exercises/update/' +this.props.match.params.id, exercise)
+    axios.post('http://localhost:5000/excercises/update/'+this.props.match.params.id, exercise)
       .then(res => console.log(res.data));
 
     window.location = '/';
