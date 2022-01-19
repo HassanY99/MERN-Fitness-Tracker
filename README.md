@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# MERN Fitness Tracker 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Fitness Tracker
 
-## Available Scripts
 
-In the project directory, you can run:
+  ## Description
 
-### `npm start`
+  This application is a workout tracker. You can add excercises and also see your activities. You can create multiple workouts and you can add as many exercises to the latest workout. You can create new users along the way and update users with different excercises that you perform.
+  Link of live app: [Live App](https://mern-fitness-tracker-deploy.herokuapp.com/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  ## Licensing
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  [![license](https://img.shields.io/badge/license-MIT-blue)](https://shields.io)
 
-### `npm test`
+  ## Table of Contents
+  - [User Story](#user-story)
+  - [Acceptance Criteria](#acceptance-criteria)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Tests](#tests)
+  - [Contributing](#contributing)
+  - [Questions](#questions)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  ## User Story
 
-### `npm run build`
+* As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, duration and date of when the excercise was performed.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Acceptance Criteria
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The user should be able to:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  * Add exercises to the most recent workout plan.
 
-### `npm run eject`
+  * Add new exercises to a new workout plan.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+  * View the total duration of each workout from the past seven workouts on the `stats` page.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  ## Installation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+  You can clone my github repository.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+  ## Usage
 
-## Learn More
+  You can type nodemon server to start the server and npm run start to initiate the app.
+  
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  ## Contributing
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+  You can email me
 
-### Code Splitting
+  ## Questions
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  You can check me on [HassanY99](https://github.com/HassanY99) and can shoot me an email at hassanyousuf1999@gmail.com.
